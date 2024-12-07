@@ -1,0 +1,74 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "Futura", Sans-serif;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+header {
+    width: 100%;
+    background: rgb(82,85,88);
+    background: linear-gradient(180deg, rgba(82,85,88,1) 0%, rgba(40,41,42,1) 75%);
+    color: white;
+    padding: 5px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.logo {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px; /* Increased gap between links */
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: .9em;
+}
+
+.nav-links a:hover {
+    color: yellow; /* Change font color on hover */
+    text-decoration: underline;
+}
+
+.nav-links a:active {
+    font-weight: bold; /* Make the text bold when clicked */
+}
+.about-container {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .about-image {
+    flex: 1;
+    max-width: 300px; /* Adjust the size as needed */
+    margin-right: 20px;
+  }
+  
+  .about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional: Add border radius */
+  }
+  
+  .about-info {
+    flex: 2;
+  }
